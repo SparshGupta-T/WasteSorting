@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['HDPE', 'LDPE', 'PET', 'PP', 'PS', 'PVC']
+
+roboflow:
+  workspace: plasticsegregator
+  project: recyclenet-c08ay
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plasticsegregator/recyclenet-c08ay/dataset/1
